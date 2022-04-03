@@ -1,0 +1,62 @@
+html, body {
+    background-color: #171A1C;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#topBar {
+    background-color: #22272B;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0px, 10px, 0px, 10px;
+}
+
+#homeBtn {
+    float: left;
+    position: relative;
+    left: 3%;
+}
+
+#discord {
+    float: right;
+    transform: scale(65%);
+    position: relative;
+    left: -3%;
+    margin-left: 10px;
+    top: 5px;
+}
+
+#info {
+    float: right;
+    transform: scale(65%);
+    position: relative;
+    left: -3%;
+    top: 5px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.title {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    margin-bottom: 0;
+    left: calc(50% - 100px);
+    text-align: center;
+    font-family: 'Inknut Antiqua', serif;
+    color: #C4C4C4;
+    line-height: 35px;
+}
+
+.groupName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.heardle {
+    margin-top: 5px;
+}
