@@ -8,15 +8,20 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css"href="css\js\main-XL.css">
     <link rel="stylesheet" type="text/css"href="css\js\main.css">
+    <link rel="stylesheet" type="text/css"href="css\js\main-tablet.css">
+    <link rel="stylesheet" type="text/css"href="css\js\main-phone.css">
 </head>
 <body>
     <div id="topBar">
+
         <svg id="homeBtn" class="helper" width="33.5" height="32" viewBox="0 0 67 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M26.4048 52.8584V63C26.4048 63.5523 25.9571 64 25.4048 64H13.5979C11.941 64 10.5979 62.6569 10.5979 61V32.4533L32.2509 12.9883C33.012 12.3041 34.1669 12.3049 34.9271 12.9902L57.1206 32.9972V61C57.1206 62.6569 55.7775 64 54.1206 64H41.9544C41.4021 64 40.9544 63.5523 40.9544 63V52.8584C40.9544 51.2015 39.6113 49.8584 37.9544 49.8584H29.4048C27.748 49.8584 26.4048 51.2015 26.4048 52.8584Z" fill="#C4C4C4"/>
             <path d="M32.2616 8.80099L5.36816 32.82C4.57432 33.529 3.36425 33.492 2.61514 32.7359L1.48005 31.5902C0.674924 30.7775 0.714207 29.4564 1.56619 28.693L32.2516 1.19903C33.0127 0.517075 34.1655 0.518612 34.9248 1.2026L65.5141 28.7578C66.3348 29.4971 66.4008 30.7616 65.6616 31.5823L64.7364 32.6095C64.0009 33.4261 62.7444 33.4963 61.9225 32.7667L34.9216 8.797C34.1624 8.12305 33.0187 8.12476 32.2616 8.80099Z" fill="#C4C4C4"/>
             <path d="M17.681 4.53258H11.2386C10.6863 4.53258 10.2386 4.98029 10.2386 5.53258V17.2238L18.681 9.79037V5.53258C18.681 4.98029 18.2332 4.53258 17.681 4.53258Z" fill="#C4C4C4"/>
         </svg>
+
         <a href="https://discord.gg/baAZERxKaz" target="_blank"><svg id="discord" class="helper" width="58" height="61" viewBox="0 0 58 61" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_14_394)">
             <circle cx="29.0203" cy="25.3944" r="24.9798" fill="#5865F2"/>
@@ -35,30 +40,40 @@
             </filter>
             </defs>
             </svg></a>
-        <svg id="info" class="helper" width="58" height="61" viewBox="0 0 58 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d_14_389)">
-            <circle cx="28.9798" cy="25.3944" r="24.9798" fill="#C4C4C4"/>
-            </g>
-            <line x1="29.2036" y1="25.0281" x2="29.2036" y2="35.5892" stroke="#22272A" stroke-width="5" stroke-linecap="round"/>
-            <circle cx="29.2341" cy="15.7009" r="2.60983" fill="#22272A"/>
-            <defs>
-            <filter id="filter0_d_14_389" x="0" y="0.414673" width="57.9595" height="59.9596" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dy="6"/>
-            <feGaussianBlur stdDeviation="2"/>
-            <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_389"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_389" result="shape"/>
-            </filter>
-            </defs>
-            </svg>
+
+
         <div class="title">
-            <h2 class="groupName">K-POP<br>HEARDLE</h2>
+            <p class="groupName">K-POP<br>HEARDLE</p>
         </div>
 
-     </div>
+    </div>
+
+    <div id="headerLine"></div>
+
+    <div id="logoBoard">
+        <table id="table">
+            <tr class="tableAlign trow">
+                <td>
+                    <div id="ateez" class="group">
+                        <img class="logo atz" src="assets/ateez-logo.png" alt="ateez-logo">
+                        <p class="name nATZ">ATEEZ</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="twice" class="group">
+                        <img class="logo tw" src="assets/twice-logo.png" alt="twice-logo">
+                        <p class="name nTW">TWICE</p>
+                    </div>
+                </td>
+                <td>
+                    <div id="got7" class="group">
+                        <img class="logo g7" src="assets/got7-logo.png" alt="got7-logo">
+                        <p class="name nG7">GOT7</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 
     <script type="text/javascript" src="css\js\main.js></script>
 </body>

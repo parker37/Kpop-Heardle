@@ -1,0 +1,152 @@
+@media (max-width: 1000px) {
+    html, body {
+        background-color: #171A1C;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #topBar {
+        background-color: #22272B;
+        height: 10%;
+        margin: 0 auto;
+        padding: 0px, 10px, 0px, 10px;
+    }
+
+    #homeBtn {
+        width: 2.5vw;
+        float: left;
+        position: relative;
+        left: 3%;
+    }
+
+    #discord {
+        width: 5vw;
+        float: right;
+        transform: scale(65%);
+        position: relative;
+        left: -3%;
+        margin-left: 10px;
+        top: 0.75vh;
+    }
+
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .title {
+        width: 20%;
+        height: 8%;
+        position: absolute;
+        top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        left: calc(50% - 10%);
+        text-align: center;
+        font-family: 'Inknut Antiqua', serif;
+        color: #C4C4C4;
+        line-height: 4vh;
+    }
+
+    .groupName {
+        padding: 0;
+        margin-top: 0;
+        position: relative;
+        top: 1vh;
+        font-size: 4vh;
+    }
+
+    #headerLine{
+        background-color: #C4C4C4;
+        height: .5vh;
+        width: 100%;
+        margin-bottom: 14vh;
+    }
+
+    #logoBoard {
+        background-color: #22272B;
+        width: 40%;
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+
+        border-radius: 3.5vw;
+    }
+
+    #table {
+        width: 100%;
+    }
+    .trow {
+        width: 30px;
+        height: var(viewBox);
+        /*width: 65%;
+        height: 110px;*/
+        row-gap: 20px;
+    }
+
+    .tableAlign {
+        text-align: center;
+    }
+
+    .group {
+        width: 4vw;
+        height: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.4vw #474A4C solid;
+        border-radius: 30%;
+        padding: 0.8vw;
+        box-shadow: 0.3vw 0.3vw 0.3vw #111111;
+    }
+    .atz {
+        width: 5vw;
+        padding-top: 0.6vw;
+        position: relative;
+        left: -.5vw;
+    }
+    .tw {
+        width: 3.5vw;
+    }
+
+    .g7 {
+        padding-top: 0.2vh;
+        width: 3.75vw;
+
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name {
+        color: #C4C4C4;
+        font-family: 'Inknut Antiqua', sans-serif;
+        margin-top: 2.5vw;
+        font-size: 2.75vh;
+    }
+
+    .nATZ {
+        position: relative;
+        top: -2vh;
+        left: -0.5vw;
+    }
+
+    .nTW {
+        position: relative;
+        top: -3vh;
+        left: -0.5vw;
+    }
+
+    .nG7 {
+        position: relative;
+        top: -3vh;
+        left: -0.1vw;
+    }
+
+    .got7 {
+    }
+}
